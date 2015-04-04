@@ -1,6 +1,9 @@
 // plugins
 var gulp = require('gulp');
-var webServer = require('gulp-webserver');;
+var webServer = require('gulp-webserver');
+
+var source = 'app';
+
 
 // Add livereload
 gulp.task('webserver', function() {
