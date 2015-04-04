@@ -1,0 +1,27 @@
+{
+  "name": "Todos",
+  "version": "1.0.0",
+  "description": "todos project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-webserver": "^0.9.0"
+  },
+  "dependencies": {
+    "gulp": "^3.8.11",
+    "gulp-webserver": "^0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nataliiakalinova/todos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nataliiakalinova/todos/issues"
+  },
+  "homepage": "https://github.com/nataliiakalinova/todos"
+}
