@@ -1,0 +1,85 @@
+.task-list {
+    width: 304px;
+    margin: 5px auto;
+    text-align: center;
+}
+
+
+/* New task field style*/
+.task-list__new-task-text{
+    font-family: serif;
+    font-size: 20px;
+    width: 300px;
+    padding: 0px;
+    margin: 0px 0px 10px 0px;
+}
+
+
+.task-list__new-task-text:focus, .task-list__new-task-priority:focus {
+    outline: none;
+}
+
+.task-list__new-task-text::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease; font-style: italic;}
+.task-list__new-task-text::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease; font-style: italic;}
+.task-list__new-task-text:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease; font-style: italic;}
+.task-list__new-task-text:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease; font-style: italic;}
+.task-list__new-task-text:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+.task-list__new-task-text:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+.task-list__new-task-text:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+.task-list__new-task-text:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+/*List of tasks style*/
+.task-list-view {
+    list-style-type: none;
+    text-align: left;
+    width: 304px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-size: 20px;
+
+}
+
+/*Tasks style*/
+.task-list-view-item {
+    word-break: break-all;
+    border: 2px solid darkslategrey;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    margin-top: 5px;
+    padding: 5px 0px;
+
+    -webkit-box-shadow: 5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         5px 5px 5px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+/* Checkbox style*/
+.task-list-view-item__check {
+    height: 15px;
+    width: 15px;
+}
+
+/*Label style*/
+.task-list-view-item__check:checked + label {
+    text-decoration: line-through;
+}
+
+/*Delete icon style*/
+.task-list-view-item__delete {
+    float: right;
+}
+
+/*Controls style*/
+.task-list__delete-all, .task-list__view-checked, .task-list__check-all, .task-list__view-unchecked, .task-list__view-all  {
+    height: 20px;
+    width: 25%;
+    color: slategrey;
+}
+
+.task-list-view-item_hide {
+    display: none;
+}
